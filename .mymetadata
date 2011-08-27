@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enterprise-project
+  version="1.0.0"
+  name="EinTest"
+  id="myeclipse.1312007878566"
+  j2ee-spec="6.0"
+  archive="EinTest.ear">
+  <project-modules>
+    <project-module
+      type="WEB"
+      name="EinTestWeb"
+      id="myeclipse.1312007873555"
+      context-root="/EinTestWeb"
+      j2ee-spec="6.0"
+      archive="EinTestWeb.war">
+      <attributes>
+        <attribute name="webrootdir" value="WebRoot" />
+      </attributes>
+    </project-module>
+    <project-module
+      type="EJB"
+      name="EinTestEJB"
+      id="myeclipse.1312007878332"
+      j2ee-spec="6.0"
+      archive="EinTestEJB.jar" />
+  </project-modules>
+</enterprise-project>
+
